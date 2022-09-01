@@ -1,0 +1,39 @@
+form {
+  margin-top: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form label, form input, form button {
+  margin-right: 1rem;
+}
+
+form label {
+  font-size: 1.3rem;
+}
+
+form input {
+  border-radius: .3rem;
+  border: none;
+  background-color: lightgray;
+  padding: .3rem;
+}
+
+form button {
+  background-color: white;
+  border-radius: .3rem;
+  color: black;
+  padding: .4rem;
+  width: 3.5rem;
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+  padding: 0 5rem;
+}
